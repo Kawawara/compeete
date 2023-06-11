@@ -1,0 +1,14 @@
+C:\Users\not théo\source\repos\Compeete\CompeeteData\bin\Debug\net6.0\CompeeteData.deps.json
+C:\Users\not théo\source\repos\Compeete\CompeeteData\bin\Debug\net6.0\CompeeteData.runtimeconfig.json
+C:\Users\not théo\source\repos\Compeete\CompeeteData\bin\Debug\net6.0\CompeeteData.dll
+C:\Users\not théo\source\repos\Compeete\CompeeteData\bin\Debug\net6.0\CompeeteData.pdb
+C:\Users\not théo\source\repos\Compeete\CompeeteData\obj\Debug\net6.0\CompeeteData.csproj.AssemblyReference.cache
+C:\Users\not théo\source\repos\Compeete\CompeeteData\obj\Debug\net6.0\CompeeteData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\not théo\source\repos\Compeete\CompeeteData\obj\Debug\net6.0\CompeeteData.AssemblyInfoInputs.cache
+C:\Users\not théo\source\repos\Compeete\CompeeteData\obj\Debug\net6.0\CompeeteData.AssemblyInfo.cs
+C:\Users\not théo\source\repos\Compeete\CompeeteData\obj\Debug\net6.0\CompeeteData.csproj.CoreCompileInputs.cache
+C:\Users\not théo\source\repos\Compeete\CompeeteData\obj\Debug\net6.0\CompeeteData.dll
+C:\Users\not théo\source\repos\Compeete\CompeeteData\obj\Debug\net6.0\refint\CompeeteData.dll
+C:\Users\not théo\source\repos\Compeete\CompeeteData\obj\Debug\net6.0\CompeeteData.pdb
+C:\Users\not théo\source\repos\Compeete\CompeeteData\obj\Debug\net6.0\CompeeteData.genruntimeconfig.cache
+C:\Users\not théo\source\repos\Compeete\CompeeteData\obj\Debug\net6.0\ref\CompeeteData.dll

@@ -1,0 +1,68 @@
+﻿@{
+    ViewData["Title"] = "PastEvents";
+}
+@{
+    var events = TempData["events"] as List<CompeeteData.Models.Event>;
+}
+<div class="w-50 m-auto">
+    <h1>Evenements passés</h1>
+    <p>
+        <a asp-action="Index">Futurs évenement</a>
+    </p>
+
+    <p>
+        <a asp-action="Create">Créer un évenement</a>
+    </p>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    Nom
+                </th>
+                <th>
+                    Description
+                </th>
+                <th>
+                    Date de début
+                </th>
+                <th>
+                    Adresse
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in events)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Description)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Start)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Adress)
+                    </td>
+                    @if (User.Identities?.Select(c => c.FindFirst(ClaimTypes.Authentication))?.FirstOrDefault()?.Value == item.User.Id.ToString())
+                    {
+                        <td>
+                            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+                            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
+                            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+                        </td>
+                    }
+                    else
+                    {
+                        <td>
+                            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
+                        </td>
+                    }
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
